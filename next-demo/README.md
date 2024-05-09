@@ -4,6 +4,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+设置.env.local
+```
+MONGO_URI=
+ADMIN_PASSWORD=
+
+```
 ```bash
 npm run dev
 # or
