@@ -4,13 +4,13 @@ import "./globals.css"
 import {useState} from "react";
 import {Input} from "@/components/ui/input";
 import {Button} from "@/components/ui/button";
-import connectMongo from "@/lib/connect-mongo";
+// import connectMongo from "@/lib/connect-mongo";
 
 
 export default function Home() {
   const [value, setValue] = useState("")
   //connectTest
-  connectMongo().catch((reason => {console.log(reason)}))
+  // connectMongo().catch((reason => {console.log(reason)}))
   const login = (password: string) => {
 
   }
