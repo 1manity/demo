@@ -1,0 +1,3 @@
+[submodule "my-electron-react"]
+	path = my-electron-react
+	url = https://github.com/1manity/my-electron-react.git
